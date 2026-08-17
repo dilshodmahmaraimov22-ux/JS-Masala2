@@ -147,9 +147,20 @@
 // let A4 = Math.pow(A, 12);
 // console.log(A1, A2, A3, A4);
 
-// Begin13\
+// Begin13
 
-let Tf = +prompt("Tf tempereaturani kiriting");
-let Tc = (Tf - 32) * 5/9
+// let Tf = +prompt("Tf tempereaturani kiriting");
+// let Tc = (Tf - 32) * 5/9
 
-console.log(Tc);
+// console.log(Tc);
+
+// Begin14
+
+let X = +prompt("X kg shokolad kiriting");
+let Y = +prompt("Y kg konfet kiriting");
+let A = 40000;
+let B = 35000;
+let Sh = A / X;
+let K = B / Y;
+let result = Sh - K;
+console.log(result);
