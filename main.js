@@ -1,0 +1,75 @@
+// let newX = 886359008;
+// let newY = Math.floor(newX / 10000) % 10;
+// console.log(newY);
+
+// let a = prompt("A sonini kiriting");
+// let b = prompt("B sonini kiriting");
+
+// let g = Math.sqrt(a * b);
+// console.log(g);
+
+// let x = prompt("x sonini kiriting");
+
+// let y = 3 * Math.pow(x, 6) - 6 * Math.pow(x, 2) - 7;
+// console.log(y);
+
+// let y = prompt("son kiriting")
+
+// let x = 5;
+// let a = 20000;
+// let result = a / x;
+// console.log(result * y);
+
+// let a = 81;
+// let b = Math.floor(a / 10);
+// let c = a % 10;
+
+// console.log(b + c);
+
+// let a = 3902;
+// let b = Math.floor(a / 100);
+// let c = b % 10;
+// console.log(c);
+
+// Uyga vazifa
+
+// Begin1
+
+// let a = +prompt("a sonini kiriting")
+// let b = +prompt("b sonini kiriting")
+
+// let S = a * b;
+// let P = 2 * (a + b);
+
+// console.log("Yuzi", S, "Perimetri", P);
+
+// Begin2
+
+// let d = +prompt("d sonini kiriting")
+// const PI = 3;
+
+// let L = PI * d;
+// let r = d / 2;
+// let S = PI * Math.pow(r, 2);
+
+// console.log(L, S);
+
+// Begin3
+
+// let a = +prompt("a sonini kiriting");
+
+// let V = Math.pow(a, 3);
+// let S = 6 * Math.pow(a, 2);
+// console.log(V, S);
+
+// Begin4
+
+let a = +prompt("a sonini kiriting");
+let b = +prompt("b sonini kiriting");
+let c = +prompt("c sonini kiriting");
+
+let V = a * b * c;
+let S = 2 * (a * b + b * c + a * c)
+
+console.log(V, S);
+
