@@ -112,12 +112,22 @@
 
 // Begin9
 
-let x1 = +prompt("x1 masofani kiriting");
-let x2 = +prompt("x2 masofani kiriting");
-let y1 = +prompt("y1 masofani kiriting");
-let y2 = +prompt("y2 masofani kiriting");
-let L = Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
+// let x1 = +prompt("x1 masofani kiriting");
+// let x2 = +prompt("x2 masofani kiriting");
+// let y1 = +prompt("y1 masofani kiriting");
+// let y2 = +prompt("y2 masofani kiriting");
+// let L = Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
 
-console.log(L);
+// console.log(L);
 
+// Begin10
+
+let A = +prompt("A sonini kiriting");
+let B = +prompt("B sonini kiriting");
+let C = +prompt("C sonini kiriting");
+
+let a = C;
+let b = A;
+let c = B;
+console.log(a, b, c);
 
