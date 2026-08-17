@@ -104,9 +104,20 @@
 
 // Begin8
 
-const PI = 3;
-let R = +prompt("Rni kiritng");
-let L = 2 * PI * R;
-let S = PI * Math.pow(R, 2);
-console.log(R, S);
+// const PI = 3;
+// let R = +prompt("Rni kiritng");
+// let L = 2 * PI * R;
+// let S = PI * Math.pow(R, 2);
+// console.log(R, S);
+
+// Begin9
+
+let x1 = +prompt("x1 masofani kiriting");
+let x2 = +prompt("x2 masofani kiriting");
+let y1 = +prompt("y1 masofani kiriting");
+let y2 = +prompt("y2 masofani kiriting");
+let L = Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
+
+console.log(L);
+
 
