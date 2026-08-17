@@ -133,7 +133,16 @@
 
 // Begin11
 
-let x = +prompt("x sonini kiriting");
-let y = 4 * Math.pow((x - 3), 6) - 7 * Math.pow((x - 3), 3) + 2;
+// let x = +prompt("x sonini kiriting");
+// let y = 4 * Math.pow((x - 3), 6) - 7 * Math.pow((x - 3), 3) + 2;
 
-console.log(y);
+// console.log(y);
+
+// Begin12
+
+let A = +prompt("A sonini kiritng")
+let A1 = Math.pow(A, 3)
+let A2 = Math.pow(A, 6)
+let A3 = Math.pow(A, 9)
+let A4 = Math.pow(A, 12)
+console.log(A1, A2, A3, A4);
