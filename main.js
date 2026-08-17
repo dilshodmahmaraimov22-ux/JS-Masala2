@@ -75,9 +75,20 @@
 
 // Begin5
 
+// let a = +prompt("a sonini kiriting");
+// let b = +prompt("b sonini kiriting");
+
+// let result = (a + b) / 2
+
+// console.log(result);
+
+// Begin6
+
 let a = +prompt("a sonini kiriting");
 let b = +prompt("b sonini kiriting");
 
-let result = (a + b) / 2
+let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
+let P = a + b + c
 
-console.log(result);
+console.log(c, P);
+
