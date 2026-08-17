@@ -84,11 +84,20 @@
 
 // Begin6
 
-let a = +prompt("a sonini kiriting");
-let b = +prompt("b sonini kiriting");
+// let a = +prompt("a sonini kiriting");
+// let b = +prompt("b sonini kiriting");
 
-let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
-let P = a + b + c
+// let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
+// let P = a + b + c
 
-console.log(c, P);
+// console.log(c, P);
 
+// Begin7
+
+const PI = 3;
+let r1 = +prompt("r1 radiusini kiriting");
+let r2 = +prompt("r2 radiusini kiriting");
+let S1 = PI * r1;
+let S2 = PI * r2;
+S = PI * (Math.pow(r1, 2) - Math.pow(r2, 2));
+console.log(S);
