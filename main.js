@@ -122,12 +122,18 @@
 
 // Begin10
 
-let A = +prompt("A sonini kiriting");
-let B = +prompt("B sonini kiriting");
-let C = +prompt("C sonini kiriting");
+// let A = +prompt("A sonini kiriting");
+// let B = +prompt("B sonini kiriting");
+// let C = +prompt("C sonini kiriting");
 
-let a = C;
-let b = A;
-let c = B;
-console.log(a, b, c);
+// let a = C;
+// let b = A;
+// let c = B;
+// console.log(a, b, c);
 
+// Begin11
+
+let x = +prompt("x sonini kiriting");
+let y = 4 * Math.pow((x - 3), 6) - 7 * Math.pow((x - 3), 3) + 2;
+
+console.log(y);
