@@ -140,9 +140,16 @@
 
 // Begin12
 
-let A = +prompt("A sonini kiritng")
-let A1 = Math.pow(A, 3)
-let A2 = Math.pow(A, 6)
-let A3 = Math.pow(A, 9)
-let A4 = Math.pow(A, 12)
-console.log(A1, A2, A3, A4);
+// let A = +prompt("A sonini kiritng");
+// let A1 = Math.pow(A, 3);
+// let A2 = Math.pow(A, 6);
+// let A3 = Math.pow(A, 9);
+// let A4 = Math.pow(A, 12);
+// console.log(A1, A2, A3, A4);
+
+// Begin13\
+
+let Tf = +prompt("Tf tempereaturani kiriting");
+let Tc = (Tf - 32) * 5/9
+
+console.log(Tc);
