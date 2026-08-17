@@ -64,12 +64,20 @@
 
 // Begin4
 
+// let a = +prompt("a sonini kiriting");
+// let b = +prompt("b sonini kiriting");
+// let c = +prompt("c sonini kiriting");
+
+// let V = a * b * c;
+// let S = 2 * (a * b + b * c + a * c)
+
+// console.log(V, S);
+
+// Begin5
+
 let a = +prompt("a sonini kiriting");
 let b = +prompt("b sonini kiriting");
-let c = +prompt("c sonini kiriting");
 
-let V = a * b * c;
-let S = 2 * (a * b + b * c + a * c)
+let result = (a + b) / 2
 
-console.log(V, S);
-
+console.log(result);
