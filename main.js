@@ -156,11 +156,25 @@
 
 // Begin14
 
-let X = +prompt("X kg shokolad kiriting");
-let Y = +prompt("Y kg konfet kiriting");
-let A = 40000;
-let B = 35000;
-let Sh = A / X;
-let K = B / Y;
-let result = Sh - K;
+// let X = +prompt("X kg shokolad kiriting");
+// let Y = +prompt("Y kg konfet kiriting");
+// let A = 40000;
+// let B = 35000;
+// let Sh = A / X;
+// let K = B / Y;
+// let result = Sh - K;
+// console.log(result);
+
+// Begin15
+
+let X = +prompt("X kg olmani kiriting");
+let A = +prompt("A Olmani narxi");
+let Y = +prompt("Y kg olmani kiriting");
+let B = +prompt("B Olmani narxi");
+let first = A * X;
+let second = Y * B;
+let result = first + second;
+
 console.log(result);
+
+
