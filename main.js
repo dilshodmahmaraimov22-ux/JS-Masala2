@@ -234,6 +234,13 @@
 
 // Integer8
 
+// let second = +prompt("sekundni kiriting");
+// let hour = Math.round(second / 3600);
+// console.log(hour);
+
+// Integer9
+
 let second = +prompt("sekundni kiriting");
-let hour = Math.round(second / 3600);
-console.log(hour);
+let m = Math.floor(second / 60);
+let h = Math.floor(second / 3600);
+console.log(m, "minut vaqt o'tdi", h, "soat vaqt o'tdi");
