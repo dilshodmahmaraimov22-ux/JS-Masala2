@@ -227,7 +227,13 @@
 
 // Integer7
 
-let a = +prompt("a sekundni kiriting");
-let b = 60;
-let x = Math.round(a / b);
-console.log(x);
+// let a = +prompt("a sekundni kiriting");
+// let b = 60;
+// let x = Math.round(a / b);
+// console.log(x);
+
+// Integer8
+
+let second = +prompt("sekundni kiriting");
+let hour = Math.round(second / 3600);
+console.log(hour);
