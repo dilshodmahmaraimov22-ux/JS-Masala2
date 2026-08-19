@@ -167,14 +167,20 @@
 
 // Begin15
 
-let X = +prompt("X kg olmani kiriting");
-let A = +prompt("A Olmani narxi");
-let Y = +prompt("Y kg olmani kiriting");
-let B = +prompt("B Olmani narxi");
-let first = A * X;
-let second = Y * B;
-let result = first + second;
+// let X = +prompt("X kg olmani kiriting");
+// let A = +prompt("A Olmani narxi");
+// let Y = +prompt("Y kg olmani kiriting");
+// let B = +prompt("B Olmani narxi");
+// let first = A * X;
+// let second = Y * B;
+// let result = first + second;
 
-console.log(result);
+// console.log(result);
 
+// Integer1
+
+let a = 802;
+let b = a % 10;
+let c = Math.floor(a / 10) % 10;
+console.log(b, c);
 
