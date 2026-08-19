@@ -179,8 +179,17 @@
 
 // Integer1
 
-let a = 802;
-let b = a % 10;
-let c = Math.floor(a / 10) % 10;
-console.log(b, c);
+// let a = 802;
+// let b = a % 10;
+// let c = Math.floor(a / 10) % 10;
+// console.log(b, c);
+
+// Integer2
+
+let a = 828;
+let x = a % 10;
+let y = Math.floor(a / 10) % 10;
+let z = Math.floor(a / 100);
+let result = x + y + z;
+console.log(result);
 
