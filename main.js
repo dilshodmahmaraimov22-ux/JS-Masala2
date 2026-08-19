@@ -195,10 +195,17 @@
 
 // Integer3
 
-let a = 623;
-let x = a % 10;
-let y = Math.floor(a / 10) % 10;
-let z = Math.floor(a / 100);
-let result = x * 100 + y * 10 + z * 1;
-console.log(result);
+// let a = 623;
+// let x = a % 10;
+// let y = Math.floor(a / 10) % 10;
+// let z = Math.floor(a / 100);
+// let result = x * 100 + y * 10 + z * 1;
+// console.log(result);
 
+// Integer4
+
+let a = 296;
+let x = Math.floor(a / 10) % 10;
+let y = Math.floor(a / 100);
+let result = x * 100 + y * 10 + 6;
+console.log(result);
