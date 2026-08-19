@@ -221,6 +221,13 @@
 
 // Integer6
 
-let a = 98123;
-let x = Math.floor(a / 1000) % 10;
+// let a = 98123;
+// let x = Math.floor(a / 1000) % 10;
+// console.log(x);
+
+// Integer7
+
+let a = +prompt("a sekundni kiriting");
+let b = 60;
+let x = Math.round(a / b);
 console.log(x);
