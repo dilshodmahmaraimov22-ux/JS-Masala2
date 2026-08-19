@@ -186,10 +186,19 @@
 
 // Integer2
 
-let a = 828;
+// let a = 828;
+// let x = a % 10;
+// let y = Math.floor(a / 10) % 10;
+// let z = Math.floor(a / 100);
+// let result = x + y + z;
+// console.log(result);
+
+// Integer3
+
+let a = 623;
 let x = a % 10;
 let y = Math.floor(a / 10) % 10;
 let z = Math.floor(a / 100);
-let result = x + y + z;
+let result = x * 100 + y * 10 + z * 1;
 console.log(result);
 
