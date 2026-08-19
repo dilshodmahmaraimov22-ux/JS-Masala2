@@ -240,7 +240,14 @@
 
 // Integer9
 
+// let second = +prompt("sekundni kiriting");
+// let m = Math.floor(second / 60);
+// let h = Math.floor(second / 3600);
+// console.log(m, "minut vaqt o'tdi", h, "soat vaqt o'tdi");
+
+// Integer10
+
 let second = +prompt("sekundni kiriting");
-let m = Math.floor(second / 60);
 let h = Math.floor(second / 3600);
-console.log(m, "minut vaqt o'tdi", h, "soat vaqt o'tdi");
+let s = second % 3600;
+console.log(h, "soat o'tdi", s, "sekund o'tdi");
