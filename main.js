@@ -212,10 +212,15 @@
 
 // Integer5
 
-let a = 862;
-let x = a % 10;
-let y = Math.floor(a / 10) % 10;
-let z = Math.floor(a / 100);
-let result = x * 100 + y * 10 + z * 1;
-console.log(result);
+// let a = 862;
+// let x = a % 10;
+// let y = Math.floor(a / 10) % 10;
+// let z = Math.floor(a / 100);
+// let result = x * 100 + y * 10 + z * 1;
+// console.log(result);
 
+// Integer6
+
+let a = 98123;
+let x = Math.floor(a / 1000) % 10;
+console.log(x);
